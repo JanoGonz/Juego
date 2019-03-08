@@ -43,7 +43,7 @@ public class Juego
             Random aleatorio = new Random();
             int numeroAEncontrar = aleatorio.nextInt((numFin+1) - numInicio) + numInicio;
             boolean encontrado = false;
-            int intentos = numFin - numInicio;
+            int intentos = numFin - numInicio + 1;
             if (intentos == 0){
                 System.out.println("No se puede poner el mismo número");
             }
